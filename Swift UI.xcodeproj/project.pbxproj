@@ -14,6 +14,8 @@
 		0FD7C3A523CC67D30044B4FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0FD7C3A423CC67D30044B4FA /* Assets.xcassets */; };
 		0FD7C3A823CC67D30044B4FA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0FD7C3A723CC67D30044B4FA /* Preview Assets.xcassets */; };
 		0FD7C3AB23CC67D30044B4FA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0FD7C3A923CC67D30044B4FA /* LaunchScreen.storyboard */; };
+		0FD7C3B323CC68740044B4FA /* SwiftUIViewImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FD7C3B223CC68740044B4FA /* SwiftUIViewImage.swift */; };
+		0FD7C3B823CC72810044B4FA /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FD7C3B723CC72810044B4FA /* MapView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		0FD7C3A723CC67D30044B4FA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		0FD7C3AA23CC67D30044B4FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0FD7C3AC23CC67D30044B4FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0FD7C3B223CC68740044B4FA /* SwiftUIViewImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIViewImage.swift; sourceTree = "<group>"; };
+		0FD7C3B723CC72810044B4FA /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +70,7 @@
 				0FD7C3AC23CC67D30044B4FA /* Info.plist */,
 				0FD7C39F23CC67CC0044B4FA /* Swift_UI.xcdatamodeld */,
 				0FD7C3A623CC67D30044B4FA /* Preview Content */,
+				0FD7C3B723CC72810044B4FA /* MapView.swift */,
 			);
 			path = "Swift UI";
 			sourceTree = "<group>";
@@ -74,6 +79,7 @@
 			isa = PBXGroup;
 			children = (
 				0FD7C3A723CC67D30044B4FA /* Preview Assets.xcassets */,
+				0FD7C3B223CC68740044B4FA /* SwiftUIViewImage.swift */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -149,8 +155,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0FD7C3B823CC72810044B4FA /* MapView.swift in Sources */,
 				0FD7C39C23CC67CC0044B4FA /* AppDelegate.swift in Sources */,
 				0FD7C3A123CC67CC0044B4FA /* Swift_UI.xcdatamodeld in Sources */,
+				0FD7C3B323CC68740044B4FA /* SwiftUIViewImage.swift in Sources */,
 				0FD7C3A323CC67CC0044B4FA /* ContentView.swift in Sources */,
 				0FD7C39E23CC67CC0044B4FA /* SceneDelegate.swift in Sources */,
 			);
